@@ -19,12 +19,16 @@ jobs:
           extended: true
       - name: Install npm
         run: |
-          npm install postcss-cli
-          npm install tailwindcss
-          npm install postcss-pxtorem
+          npm install @fullhuman/postcss-purgecss
           npm install autoprefixer
+          npm install cssnano
+          npm install cssnano-preset-advanced
+          npm install postcss-cli
           npm install postcss-easing-gradients
           npm install postcss-font-display
+          npm install postcss-pxtorem
+          npm install postcss-replace-values
+          npm install tailwindcss
       - name: Build Hugo
         run: |
           hugo --environment production

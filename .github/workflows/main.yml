@@ -23,6 +23,7 @@ jobs:
           npm install tailwindcss
           npm install postcss-pxtorem
           npm install autoprefixer
+          npm install postcss-easing-gradients
       - name: Build Hugo
         run: |
           hugo --environment production

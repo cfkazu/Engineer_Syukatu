@@ -19,7 +19,7 @@ jobs:
           extended: true
       - name: Install npm
         run: |
-          npm install
+          npm install postcss-cli
 
       - name: Build Hugo
         run: |

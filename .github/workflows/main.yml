@@ -20,7 +20,7 @@ jobs:
       - name: Install npm
         run: |
           npm install postcss-cli
-
+          npm install tailwindcss
       - name: Build Hugo
         run: |
           hugo --environment production

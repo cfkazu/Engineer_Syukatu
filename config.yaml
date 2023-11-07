@@ -1,7 +1,7 @@
 baseURL: https://hugo-theme-luna.imiku.me/
 languageCode: ja
 defaultContentLanguage: ja
-title: "Hugo Theme Luna"
+title: "エンジニア就活徹底攻略(25,26卒向け)"
 enableRobotsTXT: true
 enableEmoji: true
 theme: hugo-theme-luna

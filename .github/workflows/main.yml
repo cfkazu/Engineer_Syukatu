@@ -21,6 +21,7 @@ jobs:
         run: |
           npm install postcss-cli
           npm install tailwindcss
+          npm install postcss-pxtorem
       - name: Build Hugo
         run: |
           hugo --environment production

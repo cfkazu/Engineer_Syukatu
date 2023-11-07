@@ -17,6 +17,9 @@ jobs:
         with:
           hugo-version: "0.98.0"
           extended: true
+      - name: Install npm
+        run: |
+          npm install
 
       - name: Build Hugo
         run: |

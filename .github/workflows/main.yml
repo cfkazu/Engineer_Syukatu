@@ -22,6 +22,7 @@ jobs:
           npm install postcss-cli
           npm install tailwindcss
           npm install postcss-pxtorem
+          npm install autoprefixer
       - name: Build Hugo
         run: |
           hugo --environment production

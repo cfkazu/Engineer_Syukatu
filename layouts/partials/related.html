@@ -1,0 +1,12 @@
+{{ $related := .Site.RegularPages.Related . | first 5 }}
+{{ with $related }}
+<div class="flex px-6 pb-5 pt-4 text-gray-500 md:px-10 md:pb-10 md:pt-14">
+    <h3>この記事と関連する記事を読んでみる</h3>
+    <br>
+  <ul>
+    {{ range . }}
+      <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+    {{ end }}
+  </ul>
+</div>
+{{ end }}

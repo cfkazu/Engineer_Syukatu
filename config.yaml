@@ -196,7 +196,7 @@ params:
   # 评论系统
   # Comment system
   comments:
-    enabled: true
+    enabled: false
     provider: "giscus" # custom | giscus
     giscus: &giscus
       repo: "Ice-Hazymoon/hugo-theme-luna"
@@ -214,14 +214,14 @@ params:
   rss:
     # 如果为 false，你必须设置 Output Formats，请查看：https://gohugo.io/templates/output-formats#customizing-output-formats
     # If false, you must set Output Formats, see: https://gohugo.io/templates/output-formats#customizing-output-formats
-    enabled: true
+    enabled: false
     # 是否输出全文
     # Output full text
     fullText: true
 
   # 如果为 false，你必须设置 Output Formats，请查看：https://gohugo.io/templates/output-formats#customizing-output-formats
   # If false, you must set Output Formats, see: https://gohugo.io/templates/output-formats#customizing-output-formats
-  sitemap: true
+  sitemap: false
 
   # 网站主题颜色
   # Site theme colors
@@ -262,7 +262,7 @@ params:
   # 网站底部显示运行时间
   # Show site runtime
   runTime:
-    enabled: true
+    enabled: false
     # 网站创建时间
     # Site creation time
     creatTime: 2016/12/12
@@ -332,11 +332,11 @@ params:
 
   # 启用谷歌翻译插件
   # enable google translate in footer
-  googleTranslate: true
+  googleTranslate: false
 
   # 优化中文排版，请参考：https://github.com/vinta/pangu.js
   # Optimize Chinese typography, see: https://github.com/vinta/pangu.js
-  pangu: true
+  pangu: false
 
   # 开启本地搜索插件
   # enable local search plugin
@@ -348,7 +348,7 @@ params:
 
   # 显示阅读时间
   # show reading time
-  readingTime: true
+  readingTime: false
 
   # 显示文章字数
   # show word count
@@ -442,10 +442,38 @@ languages:
       main:
       - *mainMenuHome
       - *mainMenuAbout
-      - *mainMenuLinks
+      #- *mainMenuLinks
       - *mainMenuArchives
-      - *mainMenuGitHub
+      #- *mainMenuGitHub
       - *mainMenuSearch
 
 staticDir:
   - static
+
+
+related:
+  includeNewer: true
+  indices:
+  - applyFilter: false
+    cardinalityThreshold: 0
+    name: keywords
+    pattern: ""
+    toLower: false
+    type: basic
+    weight: 100
+  - applyFilter: false
+    cardinalityThreshold: 0
+    name: date
+    pattern: ""
+    toLower: false
+    type: basic
+    weight: 10
+  - applyFilter: false
+    cardinalityThreshold: 0
+    name: tags
+    pattern: ""
+    toLower: false
+    type: basic
+    weight: 80
+  threshold: 80
+  toLower: false

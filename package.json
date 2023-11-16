@@ -1,5 +1,15 @@
 {
   "dependencies": {
-    "hugo-extended": "^0.120.3"
+    "@fullhuman/postcss-purgecss": "^5.0.0",
+    "autoprefixer": "^10.4.16",
+    "cssnano": "^6.0.1",
+    "cssnano-preset-advanced": "^6.0.1",
+    "hugo-extended": "^0.120.3",
+    "postcss-cli": "^10.1.0",
+    "postcss-easing-gradients": "^3.0.1",
+    "postcss-font-display": "^0.3.0",
+    "postcss-pxtorem": "^6.0.0",
+    "postcss-replace-values": "^3.0.2",
+    "tailwindcss": "^3.3.5"
   }
 }

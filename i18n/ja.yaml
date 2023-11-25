@@ -69,7 +69,7 @@ runTime:
 # navbar
 navbar:
     home: "ホーム"
-    about: "プロファイル"
+    about: "情報"
     links: "リンクス"
     github: "GitHub"
     search: "検索"

@@ -94,7 +94,7 @@ $manuMain:
     weight: 20
     identifier: about
     params:
-      icon: eva eva-heart
+      icon: eva eva-info
     url: /about/
   - &mainMenuLinks
     name: Links
@@ -477,3 +477,5 @@ related:
     weight: 80
   threshold: 80
   toLower: false
+
+disableKinds: ["taxonomy"]

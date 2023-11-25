@@ -1,7 +1,7 @@
 +++
 title = '【25,26卒向け】Amazon/AWSの就活情報'
 date = 2023-11-08T00:12:45+09:00
-draft = false
+draft = true
 +++
 Amazonはいわずと知れたECサイトですが，その事業は多岐にわたっています．
 

@@ -47,7 +47,7 @@ frontmatter:
     - :default
 
 taxonomies:
-  tag: "tags"
+  #tag: "tags"
   category: "categories"
 
 summaryLength: 70

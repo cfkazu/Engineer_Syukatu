@@ -2,7 +2,7 @@
 title = 'LinkedInを使ってGoogleに転職できる会社を探そう'
 date = 2023-11-05T23:47:10+09:00
 draft = true
-tags = ["Linkedin","転職"]
+#tags = ["Linkedin","転職"]
 +++
 みなさんLinkedInというサービスはご存じでしょうか？
 LinkedInは世界最大のビジネスSNSで，日本でも最近では就活生の間で人気が高まっています．

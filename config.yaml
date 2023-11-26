@@ -419,7 +419,7 @@ params:
   description: "A simple, performance-first, SEO-friendly Hugo theme"
 
   env: production
-  googleAnalyticsID: G-ZGL5276B0L
+  googleAnalyticsID: G-XP5P704V4T
 
 build:
   noJSConfigInAssets: true

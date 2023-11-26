@@ -214,14 +214,14 @@ params:
   rss:
     # 如果为 false，你必须设置 Output Formats，请查看：https://gohugo.io/templates/output-formats#customizing-output-formats
     # If false, you must set Output Formats, see: https://gohugo.io/templates/output-formats#customizing-output-formats
-    enabled: false
+    enabled: true
     # 是否输出全文
     # Output full text
     fullText: true
 
   # 如果为 false，你必须设置 Output Formats，请查看：https://gohugo.io/templates/output-formats#customizing-output-formats
   # If false, you must set Output Formats, see: https://gohugo.io/templates/output-formats#customizing-output-formats
-  sitemap: false
+  sitemap: true
 
   # 网站主题颜色
   # Site theme colors

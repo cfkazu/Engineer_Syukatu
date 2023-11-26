@@ -420,6 +420,7 @@ params:
 
   env: production
   googleAnalyticsID: G-XP5P704V4T
+  googleAdsenseID: ca-pub-5308162196108982
 
 build:
   noJSConfigInAssets: true

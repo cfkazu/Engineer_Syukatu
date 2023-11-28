@@ -1,7 +1,7 @@
 baseURL: https://enshukatu.com/
 languageCode: ja
 defaultContentLanguage: ja
-title: "エンジニア就活徹底攻略(25,26卒向け)"
+title: "GAFA新卒エンジニアが教える就活徹底攻略サイト"
 enableRobotsTXT: true
 enableEmoji: true
 theme: hugo-theme-luna
@@ -265,7 +265,7 @@ params:
     enabled: false
     # 网站创建时间
     # Site creation time
-    creatTime: 2016/12/12
+    creatTime: 2023/11/12
   
   #  网站创建年份
   # Site creation year
@@ -277,7 +277,7 @@ params:
     enabled: true
     # 超过该天数将显示过时提醒
     # A timeout reminder will be displayed if the last modification time exceeds that number of days
-    day: 90
+    day: 365
 
   # 自动切换夜间模式（使用设备设置）
   # Automatic switching of night mode (using device settings)
@@ -410,13 +410,13 @@ params:
   opengraph:
     twitter: # see https://developer.twitter.com/en/docs/twitter-for-websites/cards/guides/getting-started
       cardType: summary_large_image # summary | summary_large_image
-      site: "@Ice_Hazymoon"
+      site: "@krams_ykz"
     image: "featured.png" # in assets folder | false
 
   author: Krams
   keywords:
     - Engineer
-  description: "A simple, performance-first, SEO-friendly Hugo theme"
+  description: "GAFA graduate engineers share the knowledge on finding a job as an engineer."
 
   env: production
   googleAnalyticsID: G-XP5P704V4T

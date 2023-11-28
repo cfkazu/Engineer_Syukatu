@@ -14,7 +14,7 @@ linksRank: "顺位は区别しません"
 # Archives
 archives:
     title: "アーカイブ"
-    total: '合計 {{ . }} 件記事'
+    total: '{{ . }} 件の記事'
     helloWorld: "Hello World!"
     untitled: "タイトルなし"
 
@@ -38,7 +38,7 @@ post:
     lastmod: '最終更新：'
     toc: "目次"
     refs: "参考資料"
-    archiveCounter: '合計 {{ . }} 件記事'
+    archiveCounter: '合計 {{ . }} 件の記事'
     untitled: "タイトルなし"
 
 # search

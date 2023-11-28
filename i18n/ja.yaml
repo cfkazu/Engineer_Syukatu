@@ -43,7 +43,7 @@ post:
 
 # search
 search:
-    loading: "イニシャライズ中、お待ちください"
+    loading: "イニシャライズ中……"
     loadFailure: "サーチエンジンのイニシャライズ失敗"
     input: "入力..."
     results: 'キーワード 「{{ .Keyword }}」 での検索結果 {{ .Count }} 件'

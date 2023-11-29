@@ -1,7 +1,7 @@
 baseURL: https://enshukatu.com/
 languageCode: ja
 defaultContentLanguage: ja
-title: "GAFA新卒エンジニアが教える就活徹底攻略サイト"
+title: "エンジニア就活徹底攻略サイト"
 enableRobotsTXT: true
 enableEmoji: true
 theme: hugo-theme-luna

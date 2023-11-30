@@ -409,9 +409,9 @@ params:
   # 设置推特卡片样式
   opengraph:
     twitter: # see https://developer.twitter.com/en/docs/twitter-for-websites/cards/guides/getting-started
-      cardType: summary_large_image # summary | summary_large_image
+      cardType: summary # summary | summary_large_image
       site: "@krams_ykz"
-    image: "featured.png" # in assets folder | false
+    image: "images/featured.png" # in assets folder | false
 
   author: Krams
   keywords:

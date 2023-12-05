@@ -411,7 +411,7 @@ params:
     twitter: # see https://developer.twitter.com/en/docs/twitter-for-websites/cards/guides/getting-started
       cardType: summary # summary | summary_large_image
       site: "@krams_ykz"
-    image: "images/featured.png" # in assets folder | false
+    image: "icon.png" # in assets folder | false
 
   author: Krams
   keywords:

@@ -1,7 +1,7 @@
 {{ $related := .Site.RegularPages.Related . | first 5 }}
 {{ with $related }}
 <div class="article-content typo relative flex-grow px-6 py-5 md:px-10">
-    <h1>関連記事</h1>
+    <h1>こちらもおすすめ</h1>
     <ul style="list-style: none; padding-left: 20px;">
     {{ range . }}
       <li style="margin-bottom: 10px;"><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>

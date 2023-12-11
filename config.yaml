@@ -360,7 +360,7 @@ params:
     enabled: true
     # 超过这个字数后将显示目录
     # When the article word count is greater than this value, the TOC will be displayed
-    wordCount: 400 
+    wordCount: 0 
 
   # 加密功能
   # encryption articles

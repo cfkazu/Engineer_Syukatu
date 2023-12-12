@@ -14,7 +14,7 @@ enableGitInfo: false
 
 # 如果你的博客包含中日韩语，请启用此选项
 # enable CJK language support
-hasCJKLanguage: false
+hasCJKLanguage: true
 
 # 每页显示文章数量
 # pagination size
@@ -360,7 +360,7 @@ params:
     enabled: true
     # 超过这个字数后将显示目录
     # When the article word count is greater than this value, the TOC will be displayed
-    wordCount: 0 
+    wordCount: 800 
 
   # 加密功能
   # encryption articles

@@ -2,10 +2,14 @@
 <html lang="{{- .Language -}}" class="lang-{{- .Language -}}">
     <head>
         {{ if .Site.Params.GoogleAnalyticsID }}
+        {{ if not .Site.IsServer }}
         {{ partial "analytics-gtag.html" . }}
         {{ end }}
+        {{ end }}
         {{ if .Site.Params.GoogleAdsenseID}}
+        {{ if not .Site.IsServer }}
         {{ partial "adsense-gtag.html" .}}
+        {{end}}
         {{end}}
         {{- partial "html/head/head" . -}}
         {{- block "head" . -}}{{ end }}
